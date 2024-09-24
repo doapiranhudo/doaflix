@@ -1,0 +1,58 @@
+body {
+
+    color:white;
+    background:black;
+    margin:0px;
+    font-family: "Halant", serif;
+}
+
+header{
+
+    border-bottom:solid 2px rgb(42, 122, 228);
+    padding:20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
+
+section {
+    background: rgb( 225, 132, 1);
+  padding-bottom: 80px;
+ padding-top: 80px;
+ display: flex;
+ justify-content: center;
+}
+
+.chamada-texto{
+    margin-right:5%;
+}
+
+h1{
+    font-size: 31px;
+}
+p{
+    font-size:20px;
+}
+
+img{
+height: 130px;
+
+}
+
+.categoria-videos {
+    display:flex;
+    gap: 20px;
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img {
+   opacity: 0.5,
+}
+
+.categoria-videos img:hover{
+opacity:1.0;
+
+}
